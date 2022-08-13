@@ -5,4 +5,4 @@
 <p>Criado para praticar manipulação do DOM, e diversas outras tecnologias.</p>
 <p>Projeto bem simples, porém divertido.</p>
 <p>Criado a partir do curso web moderno que estou fazendo na UDEMY.</p>
-<p>Link: </p>
+<p>Link: https://marcusmix.github.io/flappy-bird/</p>
