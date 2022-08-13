@@ -1,6 +1,6 @@
-# flappy-bird
+# Flappy-Bird
 
-<h1>Flappy Bird</h1>
+
 <p>Jogo flappy bird implementado no navegador com <strong>HTML, CSS e Javascript</strong>. </p>
 <p>Criado para praticar manipulação do <strong>DOM</strong>, e diversas outras tecnologias.</p>
 <p>Projeto bem simples, porém divertido.</p>
