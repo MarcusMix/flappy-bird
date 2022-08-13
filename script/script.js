@@ -1,4 +1,3 @@
-
 // função de criação de elemento no HTML pelo
 // Javascript
 function novoElemento(tagName, className) {
@@ -6,7 +5,6 @@ function novoElemento(tagName, className) {
     elem.className = className;
     return elem;
 }
-
 
 // criar barreiras
 function Barreira(reversa = false) {
@@ -17,12 +15,12 @@ function Barreira(reversa = false) {
     this.elemento.appendChild(reversa ? corpo : borda);
     this.elemento.appendChild(reversa ? borda : corpo);
 
-
     //altura
     this.setAltura = altura => corpo.style.height = `${altura}px`;
 }
 
 // teste
+
 // const b = new Barreira(true)
 // b.setAltura(600)
 // document.querySelector('[wm-flappy]').appendChild(b.elemento)
@@ -144,8 +142,6 @@ function Progresso() {
 
 // },20)
 
-
-
 function estaoSobrepostos(elementoA, elementoB) {
     const a = elementoA.getBoundingClientRect()
     const b = elementoB.getBoundingClientRect()
@@ -171,8 +167,7 @@ function colidiu(passaro, barreiras) {
     return colidiu
 }
 
-
-
+// ligação de todos os métodos
 function FlappyBird() {
     let pontos = 0;
 
@@ -202,4 +197,6 @@ function FlappyBird() {
     }
 }
 
+
+//inicialização jogo
 new FlappyBird().start();
